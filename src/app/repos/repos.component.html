@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card" style="width: 66rem">
+        <div class="card-header" appStrikethrough>
+          <strong>User Repositories</strong>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Watchers</th>
+              <th scope="col">Folks</th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let repo of repos">
+            <tr>
+              <td>
+                <a target="_blank" href="{{ repo.html_url }}">{{
+                  repo.name
+                }}</a>
+              </td>
+              <td>{{ repo.description }}</td>
+              <td>{{ repo.watchers }}</td>
+              <td>{{ repo.forks }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
