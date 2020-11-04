@@ -18,7 +18,7 @@ const appRoutes: Routes = [
   { path: 'repos', component: ReposComponent },
   { path: '**', component: NotFoundComponent },
 ];
-
+//Update appmodule with declarations
 @NgModule({
   declarations: [
     AppComponent,
