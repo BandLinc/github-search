@@ -9,6 +9,7 @@ import 'rxjs/add/operator/map';
   styleUrls: ['./user.component.css'],
 })
 export class UserComponent implements OnInit {
+  //Set up usercomponent class with methods
   user: any = [];
   @Output() repos: any = [];
   username: string;
