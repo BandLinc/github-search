@@ -1,5 +1,5 @@
 import { Directive, ElementRef } from '@angular/core';
-
+//create directive
 @Directive({
   selector: '[appStrikethrough]',
 })
