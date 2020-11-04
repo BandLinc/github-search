@@ -1,10 +1,10 @@
 # GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+This project is used to search for github repositories
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To run the project. Simply click on the url https://git-search-ke.herokuapp.com/
 
 ## Code scaffolding
 
