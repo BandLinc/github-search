@@ -12,6 +12,8 @@ import { StrikethroughDirective } from './strikethrough.directive';
 import { MypipePipe } from './mypipe.pipe';
 import { FooterComponent } from './footer/footer.component';
 
+//Define app routes
+
 const appRoutes: Routes = [
   { path: '', component: UserComponent },
   { path: 'users', component: UserComponent },
