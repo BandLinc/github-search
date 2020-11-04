@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './repos.component.html',
   styleUrls: ['./repos.component.css'],
 })
+//Configure ReposComponent class
 export class ReposComponent implements OnInit {
   @Input() repos: any = [];
   constructor(private _githubService: GithubService) {
